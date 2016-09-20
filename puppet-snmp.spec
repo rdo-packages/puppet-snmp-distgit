@@ -7,8 +7,8 @@
 
 
 Name:           puppet-snmp
-Version:        XXX
-Release:        XXX
+Version:        3.6.0
+Release:        1%{?alphatag}%{?dist}
 Summary:        Simple Network Management Protocol is for monitoring network and computer equipment. Net-SNMP implements v1, v2c, and v3 on both IPv4 and IPv6.
 License:        Apache-2.0
 
@@ -49,4 +49,7 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/snmp/
 
 
 %changelog
+* Tue Sep 20 2016 Haikel Guemar <hguemar@fedoraproject.org> - 3.6.0-1.7d4c97c.git
+- Newton update 3.6.0 (7d4c97c5b6bf8756db8515355d4aac9ffd524569)
+
 
