@@ -10,7 +10,7 @@ Name:           puppet-snmp
 Version:        XXX
 Release:        XXX
 Summary:        Simple Network Management Protocol is for monitoring network and computer equipment. Net-SNMP implements v1, v2c, and v3 on both IPv4 and IPv6.
-License:        Apache-2.0
+License:        ASL 2.0
 
 URL:            https://github.com/razorsedge/puppet-snmp
 
