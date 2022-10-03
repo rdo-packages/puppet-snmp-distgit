@@ -1,3 +1,4 @@
+%global milestone .0rc0
 %{!?upstream_version: %global upstream_version %{commit}}
 %define upstream_name puppet-snmp
 %global commit 7d4c97c5b6bf8756db8515355d4aac9ffd524569
@@ -7,8 +8,8 @@
 
 
 Name:           puppet-snmp
-Version:        XXX
-Release:        XXX
+Version:        6.0.1
+Release:        0.2%{?milestone}%{?alphatag}%{?dist}
 Summary:        Simple Network Management Protocol is for monitoring network and computer equipment. Net-SNMP implements v1, v2c, and v3 on both IPv4 and IPv6.
 License:        ASL 2.0
 
@@ -49,5 +50,8 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/snmp/
 
 
 %changelog
+* Mon Oct 03 2022 RDO <dev@lists.rdoproject.org> 6.0.1-0.2.0rc0.1555604git
+- Update to post 6.0.1 (15556044befdfd351c62ab55c61f2308d56315d6)
+
 
 
